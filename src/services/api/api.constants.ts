@@ -6,7 +6,7 @@ export enum Command {
   VOLUME_DOWN = "volume-down",
 }
 
-const baseUrl = { ip: "http://localhost:1000" };
+const baseUrl = { ip: "https://remote-service.gauravranjit.com/" };
 // let apiRoutes: { [k in Command]: string };
 // Object.keys(Command).forEach((eachCommand) => {
 //   apiRoutes[eachCommand as Command] = `${baseUrl}/command/${eachCommand}`;
